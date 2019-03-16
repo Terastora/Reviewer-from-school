@@ -1,0 +1,67 @@
+	cout << "5.0 + 3.5 =" << 5.0 + 3.5 << endl;
+	cout << "3.0 + 9.4 =" << 3.0 + 9.4 << endl;
+	cout << "16.3 - 5.2 =" << 16.3 - 5.2 << endl;
+	cout << "4.2 * 2.5 =" << 4.2 * 2.5 << endl;
+	cout << "5.0 / 2.0 =" << 5.0 / 2.0 << endl;
+	cout << "34.5 / 6.0 =" << 34.5 / 6.0 << endl;
+	cout << "34.5 / 6.5 =" << 34.5 + 6.5 << endl;
+	cout << "3 / 2 + 5.5 =" << 3 / 2 + 5.5 << endl;
+	cout << "15.6 / 2 + 5 =" << 15.6 / 2 + 5 << endl;
+	cout << "4 + 5 / 2.0 =" << 4 + 5 / 2.0 << endl;
+	cout << "4 * 3 + 7 / 5 -25.5 ="
+		 << 4 * 3 + 7 / 5 - 25.5
+		 << endl;
+
+start variable input process output 	 
+
+
+//yung kay mam
+int t1,t2,t3,t4,TotalTix;
+	float p1,p2,p3,p4,totalsales;
+	
+
+
+
+	cout <<"Enter no. of box tickets" << endl;
+	cin >> t1; 
+	cout << "Enter no. of side tickets" << endl;
+	cin >> t2;
+	cout << "Enter no. of premium tickets" << endl;
+	cin >> t3;
+	cout << "Enter no. of General Admission tickets" << endl;
+	cin >> t4;
+	p1 = 250; 
+	p2 = 100;
+	p3 = 50;
+	p4 = 25;
+	TotalTix = t1+t2+t3+t4;
+	totalsales = (p1*t1) + (p2*t2) + (p3*t3) + (p4*t4);
+	cout << "the total no of tix is" << TotalTix << endl;
+	cout << "the total sales is" << totalsales << endl;
+
+
+
+// mali ako
+cout << "Experiment 1" << endl;
+	cout << "\n" << endl;
+	//The manager of a football stadium wants you to write a program that calculates the total ticket sales after
+	//each game. There are four types of tickets—box, sideline, premium, and general admission. After each game, data is
+	//stored in a file in the following form
+	cout << "Problem 1" << endl;
+	cout << "\n" << endl;
+	cout << "Ticket Price   numberOfTicketsSold" << endl;
+	cout << "\n" << endl;
+	cout << "250 * 5750 = " <<   250 * 5750 << endl;
+	cout << "100 * 28000 = " << 100 * 28000 << endl;
+	cout << "50 * 35750 = " << 50 * 35750 << endl;
+	cout << "25 * 18750 = " << 25 * 18750 << endl; 
+
+	cout << "\n" << endl;
+	//The first line indicates that the ticket price is $250 and that 5750 tickets were sold at that price. Output the number of
+	//tickets sold and the total sale amount. Format your output with two decimal places.
+
+	cout << "Problem 2" << endl;
+	//Write a program that accepts as input the mass, in grams, and density, in grams per cubic
+	//centimeters, and outputs the volume of the object using the formula: density ¼ mass / volume. Format your output to
+	//two decimal places.
+	cout << "\n" << end; 
