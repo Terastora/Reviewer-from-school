@@ -1,0 +1,38 @@
+INSTRUCTIONS: Write a C++ script/code to do the following problems. Save your work in the Github repository and
+submit your Github repository URLs in the blackboard submission bin.
+
+PROBLEM 1: The manager of a football stadium wants you to write a program that calculates the total ticket sales after
+each game. There are four types of tickets—box, sideline, premium, and general admission. After each game, data is
+stored in a file in the following form:
+
+ticketPrice numberOfTicketsSold
+...
+Sample data are shown below:
+250 5750
+100 28000
+50 35750
+25 18750
+The first line indicates that the ticket price is $250 and that 5750 tickets were sold at that price. Output the number of
+tickets sold and the total sale amount. Format your output with two decimal places.
+
+
+
+PROBLEM 2: Write a program that accepts as input the mass, in grams, and density, in grams per cubic
+centimeters, and outputs the volume of the object using the formula: density ¼ mass / volume. Format your output to
+two decimal places.
+
+
+
+PROBLEM 3: Interest on a credit’s card unpaid balance is calculated using the average daily. Suppose that netBalance
+is the balance shown in the bill, payment is the payment made, d1 is the number of days in the billing cycle, and d2 is
+the number of days payment is made before billing cycle. Then the average daily
+balance is:
+
+averageDailyBalance = (netBalance * d1 – payment * d2) / d1
+
+If the interest rate per month is say, 0.0152, then the interest on the unpaid balance is:
+
+interest = (averageDailyBalance * 0.0152)
+
+Write a program that accepts as input netBalance, payment, d1, d2, and interest rate per month. The program outputs
+the interest. Format your output to two decimal places.
